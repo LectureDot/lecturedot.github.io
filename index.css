@@ -1,0 +1,60 @@
+body {
+  background-color: #333;
+  color: #ccc;
+  font-size: 14pt;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  display:flex;
+  flex-shrink: 1;
+  padding: 1em;
+  align-items: center;
+}
+main {
+  max-width: min(80% , 600px);
+  padding: 1em;
+  flex-grow: 1;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+footer {
+  padding: 1em;
+  flex-shrink: 1;
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 80%;
+}
+a {
+  color: #abe;
+}
+li {margin-bottom: 1em;}
+.title-text {
+  background-image: linear-gradient(to right, #FFB347, #FF6B6B, #C77DFF, #4D86FF);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+hr {
+  min-width: 50%;
+}
+
+*::-webkit-scrollbar {width:5px;height:5px;background-color: var(--bg-color);}
+*::-webkit-scrollbar-track {background-color: var(--bg-color);}
+*::-webkit-scrollbar-thumb {background-color: #888; border-radius:3px;}
+div::-webkit-scrollbar {width:5px;height:5px;background-color:var(--bg-color);}
+div::-webkit-scrollbar-track {background-color: var(--bg-color);}
+div::-webkit-scrollbar-thumb {background-color: #888; border-radius:3px;}
