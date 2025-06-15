@@ -1,0 +1,96 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LectureDocs</title>
+  <style>
+    body {
+      background-color: #333;
+      color: #ccc;
+      font-size: 14pt;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100vw;
+      height: 100vh;
+      margin: 0px;
+      padding: 0px;
+    }
+    header {
+      display:flex;
+      padding: 1em;
+      align-items: center;
+    }
+    main {
+      max-width: min(80% , 600px);
+      padding: 1em;
+      align-items: center;
+      justify-content: center;
+      flex-grow: 1;
+    }
+    footer {
+      padding: 1em;
+      flex-shrink: 1;
+      display: flex;
+      gap: 1em;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      font-size: 80%;
+    }
+    a {
+      color: #abe;
+    }
+    li {margin-bottom: 1em;}
+    .title-text {
+      background-image: linear-gradient(to right, #FFB347, #FF6B6B, #C77DFF, #4D86FF);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="icon.png" style="width:75px;height:75px;border-radius:100%;margin-right:2em;">
+    <h1>
+      <span style="color:#eee">Lecture<span><span class="title-text">Docs</span><br>
+    </h1>
+  </header>
+  <main>
+    <div>
+      LectureDocs is a collection of higher education assessment tools.
+    </div>
+    <div>
+      <ul>
+        <li>
+          <a href="https://caldwelllectureseats.github.io/">LectureSeats</a>
+          - mark lecture attendance using QR code with optional selfies, seat code, and geolocation stamps
+        </li>
+        <li>
+          <a href="https://lecturedot.github.io/LectureTest">LectureTest</a>
+          - secure exam-taking with multiple questions types (including 2-d Parsons and coding problems) and automatic grading
+        </li>
+        <li>
+          <a href="https://marketplace.visualstudio.com/items?itemName=LectureDot.lecture-assign">LectureAssign</a>
+          - Visual Studio Code extension for streamlining coding assignments and reducing plagiarism
+        </li>
+      </ul>
+    </div>
+  </main>
+  <footer>
+    <span>
+      <a href="privacy.html">Privacy Policy</a>
+      <!-- <a href="https://lecturedot.github.io/privacy/">Privacy Policy</a> -->
+    </span>
+    <span>
+      🎓• LectureDot
+    </span>
+    <span>
+      © 2025
+    </span>
+  </footer>
+</body>
+</html>
